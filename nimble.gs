@@ -1,5 +1,5 @@
 /**
- * Nimble [working name!! We need something better :)]
+ * Nimble
  * @constructor
  * @return {Object} The Nimble Object
  * @param {object}
@@ -65,7 +65,7 @@ var Nimble = function(options) {
     url
     default: the active apreadsheet attached to the project
     optional: pass in the url as a string
-     */
+    */
     if (!options.create && typeof(options.url) == "string") {
 
       if (/^http/.test(options.url)) {
